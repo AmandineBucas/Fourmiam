@@ -1,7 +1,7 @@
 # Fourmiam
 
 --------------------------------------------------------------------------
-Language : Python
+Langage : Python
 
 --------------------------------------------------------------------------
 But du TP : Trouver le meilleur itinéraire pour un robot de livraison.
