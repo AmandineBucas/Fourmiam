@@ -6,6 +6,7 @@ Langage : Python
 --------------------------------------------------------------------------
 But du TP : Trouver le meilleur itinéraire pour un robot de livraison.
 Outils : Programmation d'algorithmes de fourmi (ACO)
+Fichier VOIES_NO.csv possédant les informations des diverses voies nantaises.
 
 --------------------------------------------------------------------------
 Eléments attendus : 
