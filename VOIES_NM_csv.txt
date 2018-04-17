@@ -1,0 +1,73 @@
+
+================================================
+TITRE DU JEU DE DONNEES
+================================================
+
+Répertoire des voies de Nantes Métropole
+
+================================================
+DESCRIPTION
+================================================
+Cette table contient les informations liées au linéaire de voie. La voie est représentée
+par une succession de tronçons.
+
+Thèmes 							: 
+Granularité						: Commune
+
+================================================
+INFORMATIONS TECHNIQUES
+================================================
+
+Date de dernière mise à jour    : 03/04/2018
+Fréquence de mise à jour 		: mensuelle 
+
+Derniere mise à jour technique	:
+
+	Date : 03/04/2018
+	Nature de la modification : Mise à jour - avril 2018
+	Description de la modification : Mise à jour mensuelle
+
+================================================
+ATTRIBUTS
+================================================
+
+
+CATEGORIE         : 
+LIBELLE           : 
+MOT_DIRECTEUR     : 
+STATUT            : 
+COMMUNE           : 
+RIVOLI            : 
+TENANT            : 
+ABOUTISSANT       : 
+BI_MIN            : 
+BP_MIN            : 
+BI_MAX            : 
+BP_MAX            : 
+ 
+
+================================================
+CONTACT
+================================================
+
+Pour toute demande d'information ou remarque, 
+merci de passer par le forum du site http://data.nantes.fr
+
+================================================
+INFORMATIONS LEGALES
+================================================
+
+
+Propriétaire : Nantes Métropole
+
+Gestionnaire : Nantes Métropole
+
+Diffuseur	 : Nantes Métropole
+
+Licence      : Open Database License (ODbL)
+
+================================================
+SIGNATURES DES FICHIERS
+================================================
+
+VOIES_NM.csv (md5) : 4326bb88c7a6cab61cffa56efa41d9f8
