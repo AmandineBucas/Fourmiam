@@ -68,7 +68,7 @@ def creationFourmi(i):
     fourmi["nom"] = nom
     fourmi["début"] = CONS_DEBUT
     fourmi["fin"] = CONS_FIN
-    fourmi["rue visitée"] = {}
+    fourmi["rue visitée"] = false
     fourmi["chemin parcouru"] = 0
 
     return fourmi
@@ -78,7 +78,7 @@ fourmi = marche(graph, fourmi)
 
 # La fourmi commence à marcher 
 def marche(graph, fourmi):
-
+    
     # Initialisation du départ et de la fin.
     debut = fourmi['debut']
     fin = fourmi['fin']
@@ -95,7 +95,7 @@ def marche(graph, fourmi):
             noeud = graph.edges()[index][1]
             
             # On choisi une rue aléatoirement
-            choixFourmi = choixRue(graph.edges(noeud, data='rue'))
+            choixFourmi = choixRue(graph.edges(noeud, data='rue')) 
         
     # Si la fourmi est de nouveau à sa rue de départ.
     if(fin == premiereRue):
@@ -106,6 +106,9 @@ def marche(graph, fourmi):
 # Fonction de fitness : Sur rues déjà visitées.
 def pheromoneDrop(graph, fourmi):
 
+    # Initialisation d'un nombre maximum de phéromones.
+    max_phéromone = 0;
+    
     # Perte de phéromones lors de la marche de la fourmi.
     rue = fourmi["pertePheromone"]
     for i in rue:
@@ -114,6 +117,13 @@ def pheromoneDrop(graph, fourmi):
             pheromone =  1 / fourmi["chemin parcouru"]
             pheromone = str(pheromone)
         graph.edges(data='pheromone')['pheromone']
-
+        
+    # Calculer le nombre de phéromones en fonction des rues visitées ou non.
+    for i in CONS_DEBUT:
+        if CONS_DEBUT != fourmi["rue visitée"] = false : 
+            if pheromone[CONS_DEBUT, CONS_FIN] > max_pheromone :
+                CONS_FIN = CONS_DEBUT
+                max_pheromone = pheromone[CONS_DEBUT, CONS_FIN]
+                    
     return graph
 
